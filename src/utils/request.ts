@@ -11,7 +11,7 @@ const server = axios.create({
 server.interceptors.request.use(
   (config: InternalAxiosRequestConfig) => {
     setToken(
-      'eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImIxZmMxNDVhLTY4NmUtNDQ2ZS04ZjRhLWVmNmU3MTFhNGQ4OSJ9.TboCQ2WbaJ7CGIU_DWpNNyBA1EyiH1zSle-WqmJXnsWdpVhSzfeGuczS7RzijxGULPeV0tmtg0F4VQTVMsa5LA'
+      'eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImE4MGRjYjQ1LTJmMjAtNGQ5ZS1hMDc5LTk1YWYzODY5MWI3ZSJ9.YJ-ht555KNObY0H-Sx8m1XRozUJfqpoxftbRVE1t6eKVRza-9yqN8Sjp7P8Gb-CMX8r5Qr82w91OywnZK9_abw'
     )
     //请求头发送
     const token = getToken()

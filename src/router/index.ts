@@ -5,11 +5,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/BigScreen'
+      redirect: '/big-screen'
     },
     {
-      path: '/BigScreen',
-      name: 'BigScreen',
+      path: '/big-screen',
+      name: '/big-screen',
       component: () => import('../views/BigScreen/index.vue')
     }
   ]
